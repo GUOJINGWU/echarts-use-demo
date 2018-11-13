@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body, ul, p, h1, h2, h3, h4, h5, h6, td, th, dl, dd, dt, input, ol, div, a, img {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 14px;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", FangSong;
+  color: #333;
+  background-color: #fff;
+}
+
+ul, li {
+  list-style: none;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+b{
+  font-weight: normal;
+}
+img {
+  border-width: 0px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+
+.clearfix:after{clear:both;}
+
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+
+
+
+
+
+
+
+.Container {
+  width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.OneTLeft {
+  float: left;
+}
+
+.fl {
+  float: left;
+}
+
+.OneTRight {
+  float: right;
+}
+
+.fr {
+  float: right;
+}
+
+
+/*# sourceMappingURL=index.css.map */

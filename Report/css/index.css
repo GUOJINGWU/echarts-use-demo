@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/*
+* 年度采购数据报告
+*/
+.content-left {
+  float: left;
+  width: 15%;
+  height: 100px;
+}
+
+.content-right {
+  float: left;
+  width: 85%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  padding-left: 25px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.content-box {
+  margin-right: 200px;
+}
+
+.content-box .section {
+  margin-bottom: 40px;
+}
+
+.content-box .section .title {
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.content-box .section .title .border {
+  display: inline-block;
+  width: 4px;
+  height: 20px;
+  margin: 9px 16px 0 5px;
+  vertical-align: top;
+  background-color: #f24645;
+}
+
+.content-box .section .small-title {
+  margin-left: 25px;
+  text-indent: 2em;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.content-box .section .company, .content-box .section .text {
+  padding-left: 25px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.content-box .section .company {
+  color: #f24645;
+	font-weight: bold
+}
+
+.content-box .section .text {
+  text-indent: 2em;
+}
+
+.content-box .section .table {
+  width: 80%;
+  margin: 20px auto 0;
+}
+
+.content-box .section .table .table-item {
+  float: left;
+  width: 29%;
+  margin-right: 2.5%;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.content-box .section .table .table-item:first-child {
+  margin-left: 2.5%;
+}
+
+.content-box .section .table .table-item:hover {
+  -webkit-box-shadow: 0 0 4px 4px #ddd;
+  box-shadow: 0 0 4px 4px #ddd;
+}
+
+.content-box .section .table .table-item .table-title, .content-box .section .table .table-item .table-text {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.content-box .section .red {
+  color: #f24645;
+  font-family: Microsoft Yahei
+}
+
+.content-box .section .echarts {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.content-box .section .echarts .echart {
+  width: 100%;
+  height: 400px;
+  margin: 10px 0;
+}
+
+.content-box .section .table-title {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  font-family:Microsoft Yahei
+}
+
+.content-box .section .section-table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content-box .section .section-table thead tr {
+  background-color: #f1f1f1;
+}
+
+.content-box .section .section-table th, .content-box .section .section-table td {
+  height: 50px;
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+
+.content-box .section .section-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.content-box .section .gaikuang {
+  width: 94%;
+  margin: 20px auto 10px;
+}
+
+.content-box .section .gaikuang .gaikuang-item {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  margin: 0 2.5%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-family:Microsoft Yaheis;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.content-box .section .gaikuang .gaikuang-item:hover {
+  -webkit-box-shadow: 0 0 4px 4px #dddddd;
+  box-shadow: 0 0 4px 4px #dddddd;
+}
+
+.content-box .section .gaikuang .gaikuang-item .gaikuang-title {
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.content-box .section .gaikuang .gaikuang-item .gaikuang-text {
+  height: 50px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #f24645;
+  font-weight: 600;
+}
+
+.sroll-box .active {
+  background-color: #f24645;
+  color: #ffffff;
+}
+
+.sroll-box {
+  display: none;
+  position: fixed;
+  right: 10px;
+  top: 40%;
+  width: 160px;
+  text-align: center;
+  font-family:Microsoft Yahei
+}
+
+.sroll-box li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sroll-box li:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.sroll-box li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sroll-box .sroll-li:hover {
+  background-color: #f24645;
+  color: #ffffff;
+}
+
+.sroll-box .back-top {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #efe6eb url("../images/top.png") no-repeat 20px center;
+}
+
+.sroll-box .back-top:hover {
+  -webkit-animation: myHover 0.7s linear;
+  animation: myHover 0.7s linear;
+}
+
+@-webkit-keyframes myHover {
+  0% {
+    background-position-y: center;
+  }
+  50% {
+    background-position-y: 2px;
+  }
+  100% {
+    background-position-y: center;
+  }
+}
+
+@keyframes myHover {
+  0% {
+    background-position-y: center;
+  }
+  50% {
+    background-position-y: 2px;
+  }
+  100% {
+    background-position-y: center;
+  }
+}
